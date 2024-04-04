@@ -20,7 +20,7 @@ exclude his PnL from calculations on both sides, so we leave only unhedged PnL. 
 Hypothesis 1.
 
 Hypothesis 3:
-Is when the client's net positioning measured by volume becomes overly extended to one side, we open a contrarian position.
+Is when the client's net positioning becomes overly extended to one side, we open a contrarian position.
 The thresholds are measured by 1.5 standard deviation from one-month moving average, and by 85th percentile of the
 rolling 3 months exposure. If the clients' net positioning exceeds both of those values to the long or
 short side, that tells us that they became overly bullish or bearish, and we buy options in the opposite direction.
