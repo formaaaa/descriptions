@@ -21,9 +21,12 @@ Hypothesis 1.
 
 Hypothesis 3:
 Is when the client's net positioning becomes overly extended to one side, we open a contrarian position.
-The thresholds are measured by 1.5 standard deviation from one-month moving average, and by 85th percentile of the
-rolling 3 months exposure. If the clients' net positioning exceeds both of those values to the long or
-short side, that tells us that they became overly bullish or bearish, and we buy options in the opposite direction.
+The thresholds are measured by 1.5 standard deviation from one-month moving average (red and yellow lines),
+and by 85th percentile of the rolling 3 months exposure (orange and green lines).
+So, for long positions they need to be above 1.5 st. dev. from the average, and in the top 15% extreme long values from
+the last 3 months, and for short below 1.5 st.dev. and in the 15% of the lowest values from last 3 months.
+If the clients' net positioning exceeds both of those values to the long or short side, that tells us that they became
+overly bullish or bearish, and we buy options in the opposite direction.
 The logic behind this is that majority of clients lose, they are overly optimistic and overly leveraged at some points,
 and the markets adjust that positioning by moving in the opposite direction, liquidating positions or forcing clients
 to close.
