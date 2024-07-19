@@ -1,5 +1,5 @@
 """
-1. Last week we were testing a trading bot to gather information on execution on competitors.
+1. Last week we were testing a trading bot to gather information on competitors' execution.
 This week we will deposit accounts, and start testing on 0.01 lot size, if all goes well we will move up to 1 lot.
 
 2. We did some approximations regarding additional PnL increases we can expect from additional news delta extensions,
